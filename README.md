@@ -20,6 +20,6 @@ The plan
 How to install package in OTRS 3 ?
 -----------------------------------
 
-from console: /opt/otrs/$ perl bin/otrs.PackageManager.pl -a build -p OtrsOnlineChat.opm
+from console: /opt/otrs/$ perl bin/otrs.PackageManager.pl -a install -p OtrsOnlineChat.opm
 
 from admin panel: http://OTRS-LOCATION/otrs/index.pl?Action=AdminPackageManager
