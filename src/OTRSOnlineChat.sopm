@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_package version="1.0">
+    <CVS>$Id: OTRSOnlineChat.sopm,v 1.0.0.0 2013/02/23 12:27:00 bieli Exp $</CVS>
+    <Name>OTRSOnlineChat</Name>
+    <Version>1.0.0</Version>
+    <Framework>3.0.x</Framework>
+    <Vendor>bieli.net</Vendor>
+    <URL>http://bieli.net/</URL>
+    <License>This source code is published under GPL v3 licence</License>
+    <Description Lang="en">OTRS 3 package extends functionality to online agents internal chat gateway.</Description>
+    <Description Lang="pl">Pakiet OTRS 3 rozszerza funkcjonalność o wewnętrzną bramkę czatu dla agentów.</Description>
+    <Filelist>
+        <File Permission="666" Location="Kernel/Config/Files/OTRSOnlineChat.xml"/>
+    </Filelist>
+</otrs_package>
+
